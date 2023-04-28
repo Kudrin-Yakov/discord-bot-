@@ -20,4 +20,4 @@ async def hello(ctx):
     await ctx.send(f'Привет! Я пока что мало чего умею, но когда хозяин меня допилит-я буду лучшим ботом на планете!')
 
 
-bot.run('MTA5OTM5Nzk3MTA1NDk3MzAwMw.GKQtyK.zp096_B1_wjs-uDu9LnaGqfL3_CZKtgHrVaRKg')
+bot.run('-----------------------')
