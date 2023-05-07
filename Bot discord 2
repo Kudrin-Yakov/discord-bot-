@@ -22,6 +22,10 @@ async def hello(ctx):
 @bot.command('anecdote')
 async def haha(ctx):
   await ctx.send('Анекдот! Израильский sql сервер отвечает запросом на запрос. Хакеры в бешенстве!')
+  
+@bot.command('ecology')
+async def haha(ctx):
+  await ctx.send('Запомните! Состояние планеты зависит от каждого из нас! Если вы возьмётесь за помощь экологии и подадите пример другим, то мир станет чище!')
 
 
 bot.run('-----------------------')
