@@ -18,6 +18,10 @@ async def heh(ctx, count_heh = 5):
 @bot.command('capabilities')
 async def hello(ctx):
     await ctx.send(f'Привет! Я пока что мало чего умею, но когда хозяин меня допилит-я буду лучшим ботом на планете!')
+    
+@bot.command('anecdote')
+async def haha(ctx):
+  await ctx.send('Анекдот! Израильский sql сервер отвечает запросом на запрос. Хакеры в бешенстве!')
 
 
 bot.run('-----------------------')
